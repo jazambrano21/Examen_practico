@@ -1,0 +1,108 @@
+/* Eliminar los bordes del input */
+#usd-value {
+    border: none; /* Elimina los bordes por defecto */
+    border-bottom: 2px solid #d13b3b; /* Barra inferior de color gris */
+    outline: none; /* Elimina el borde que aparece al hacer clic en el input */
+}
+
+/* Estilo para cuando el input está enfocado (cuando está seleccionado) */
+#usd-value:focus {
+    border-bottom: 2px solid #007bff; /* Barra inferior azul cuando está enfocado */
+    box-shadow: none; /* Elimina cualquier sombra del borde */
+}
+
+/* Eliminar bordes del botón y cambiar el color de fondo */
+#calculate-btn {
+    border: none; /* Elimina los bordes */
+    background-color: transparent; /* Fondo transparente */
+    padding: 0; /* Elimina el padding (relleno) extra */
+}
+
+/* Aumentar el tamaño del icono dentro del botón */
+#calculate-btn i {
+    font-size: 2rem; /* Aumenta el tamaño del icono a 2rem */
+}
+
+/* Cambiar el color del botón al pasar el puntero sobre la columna */
+.row .col-auto:hover #calculate-btn {
+    background-color: #007bff; /* Fondo azul cuando se pasa el puntero sobre el botón */
+    color: rgb(158, 158, 158); /* Cambia el color del icono a gris claro (prácticamente blanco) */
+}
+
+/* Aplicar borde solo a la columna donde está el botón de la calculadora */
+.col-auto {
+    border-left: 2px solid #ccc; /* Borde izquierdo gris claro */
+    padding-left: 15px; /* Espacio entre el borde y el contenido dentro de la columna */
+}
+
+/* Cambiar el color del borde al pasar el puntero */
+.col-auto:hover {
+    border-left: 2px solid #007bff; /* Cambia el borde izquierdo a azul cuando el puntero pasa sobre la columna */
+}
+
+/* Fondo degradado de azul a azul oscuro para el body */
+body {
+    background: linear-gradient(to right, #007bff, #002144); /* Degradado de azul a azul oscuro */
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la pantalla */
+    margin: 0; /* Elimina los márgenes por defecto */
+}
+
+/* Estilo del contenedor principal con bordes redondeados y fondo blanco */
+.container {
+    background-color: rgb(255, 255, 255); /* Fondo blanco */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado dentro del contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del contenedor */
+}
+
+/* Estilo para el botón de agregar moneda */
+#add-currency-btn {
+    font-size: 1.2rem; /* Aumenta el tamaño de la fuente del botón */
+    color: #007bff; /* Color azul para el texto */
+    text-decoration: none; /* Elimina el subrayado del texto */
+}
+
+/* Cambiar color al pasar el puntero sobre el botón de agregar moneda */
+#add-currency-btn:hover {
+    color: #0056b3; /* Cambia el color a un tono más oscuro de azul */
+}
+
+/* Hacer el input transparente y con texto más grande */
+.input-transparent {
+    background-color: transparent;  /* Hace el fondo transparente */
+    font-size: 1.5rem;  /* Aumenta el tamaño del texto dentro del input */
+    color: #000000;  /* Establece el color del texto a negro */
+    border: none; /* Elimina los bordes del input */
+    border-bottom: 2px solid #fff;  /* Línea inferior blanca para visibilidad */
+}
+
+/* Aumentar el tamaño de los iconos */
+.icon-large {
+    background-color: transparent;  /* Hace el fondo del icono transparente */
+    font-size: 1.5rem;  /* Aumenta el tamaño del icono a 1.5rem */
+}
+
+/* Estilo para el icono de tres puntos verticales (rotarlo) */
+.vertical-dots {
+    transform: rotate(180deg);  /* Rota el icono para que sea vertical */
+}
+
+/* Eliminar bordes del botón de tres puntos */
+.no-border {
+    border: none; /* Elimina los bordes del botón */
+    background-color: transparent; /* Hace el fondo transparente */
+}
+
+/* Estilo para el ícono de la casita */
+#home-icon {
+    font-size: 24px; /* Tamaño del icono de la casita */
+    color: #1e3c72; /* Color inicial del icono */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    transition: transform 0.3s ease, color 0.3s ease; /* Añade una transición suave al cambio de tamaño y color */
+}
+
+/* Efecto de hover: Cambiar color y añadir efecto de escala */
+#home-icon:hover {
+    color: #2a5298; /* Cambia el color a un tono más oscuro cuando se pasa el puntero */
+    transform: scale(1.2); /* Aumenta ligeramente el tamaño del icono al pasar el puntero */
+}

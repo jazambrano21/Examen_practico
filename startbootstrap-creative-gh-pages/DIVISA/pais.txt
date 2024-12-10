@@ -1,0 +1,11 @@
+bueno hagamos algo porqu beo que se demora ademas sale como botones y no una lista, usemos un xml para guardar informaciones de cada moneda y pais esta es la lista:
+Italia
+Estados Unidos
+Paises Bajos
+Costa Rica
+Rusia
+Colombia
+Brasil
+Alemania
+Uruguay
+Argentina

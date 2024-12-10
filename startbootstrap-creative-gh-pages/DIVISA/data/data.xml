@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monedas>
+    <pais>
+        <nombre>Italia</nombre>
+        <moneda>Euro</moneda>
+        <valor>1</valor> <!-- El valor base es 1 -->
+        <acronimo>EUR</acronimo>
+        <bandera>https://flagcdn.com/w320/it.png</bandera>
+    </pais>
+    <pais>
+        <nombre>Estados Unidos</nombre>
+        <moneda>Dólar</moneda>
+        <valor>1.05</valor> <!-- Tasa de conversión con respecto al Euro -->
+        <acronimo>USD</acronimo>
+        <bandera>https://flagcdn.com/w320/us.png</bandera>
+    </pais>
+    <pais>
+        <nombre>Paises Bajos</nombre>
+        <moneda>Euro</moneda>
+        <valor>1</valor> <!-- El Euro no cambia -->
+        <acronimo>EUR</acronimo>
+        <bandera>https://flagcdn.com/w320/nl.png</bandera>
+    </pais>
+    <pais>
+        <nombre>Costa Rica</nombre>
+        <moneda>Colón costarricense</moneda>
+        <valor>635.69</valor> <!-- Tasa de conversión con respecto al Euro -->
+        <acronimo>CRC</acronimo>
+        <bandera>https://flagcdn.com/w320/cr.png</bandera>
+    </pais>
+    <pais>
+        <nombre>Rusia</nombre>
+        <moneda>Rublo</moneda>
+        <valor>95.35</valor> <!-- Tasa de conversión con respecto al Euro -->
+        <acronimo>RUB</acronimo>
+        <bandera>https://flagcdn.com/w320/ru.png</bandera>
+    </pais>
+    <pais>
+        <nombre>Colombia</nombre>
+        <moneda>Peso colombiano</moneda>
+        <valor>4755.25</valor> <!-- Tasa de conversión con respecto al Euro -->
+        <acronimo>COP</acronimo>
+        <bandera>https://flagcdn.com/w320/co.png</bandera>
+    </pais>
+    <pais>
+        <nombre>Brasil</nombre>
+        <moneda>Real</moneda>
+        <valor>5.31</valor> <!-- Tasa de conversión con respecto al Euro -->
+        <acronimo>BRL</acronimo>
+        <bandera>https://flagcdn.com/w320/br.png</bandera>
+    </pais>
+    <pais>
+        <nombre>Alemania</nombre>
+        <moneda>Euro</moneda>
+        <valor>1</valor> <!-- El Euro no cambia -->
+        <acronimo>EUR</acronimo>
+        <bandera>https://flagcdn.com/w320/de.png</bandera>
+    </pais>
+    <pais>
+        <nombre>Uruguay</nombre>
+        <moneda>Peso uruguayo</moneda>
+        <valor>46.76</valor> <!-- Tasa de conversión con respecto al Euro -->
+        <acronimo>UYU</acronimo>
+        <bandera>https://flagcdn.com/w320/uy.png</bandera>
+    </pais>
+    <pais>
+        <nombre>Argentina</nombre>
+        <moneda>Peso argentino</moneda>
+        <valor>355.23</valor> <!-- Tasa de conversión con respecto al Euro -->
+        <acronimo>ARS</acronimo>
+        <bandera>https://flagcdn.com/w320/ar.png</bandera>
+    </pais>
+</monedas>
